@@ -1,0 +1,10 @@
+.env
+*.env
+.DS_Store
+__pycache__/
+*.log
+*_progress.json
+.ipynb_checkpoints/
+
+# local assistant notes, not published
+CLAUDE.md

@@ -54,7 +54,7 @@ for i in range(5):
 
 # Exclusivity (One size per location)
 for i in range(5):
-    prob += pulp.lpSum(plantExists[(i, k)] for k in range(2)] <= 1
+    prob += pulp.lpSum(plantExists[(i, k)] for k in range(2)) <= 1
 
 # 5. Solve
 prob.solve()
